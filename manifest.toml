@@ -3,7 +3,7 @@
 packaging_format = 2
 
 id = "opcache-gui"
-name = "Opcache GUI"
+name = "OPcache GUI"
 description.en = "Effective and responsive interface for Zend OPcache"
 description.fr = "Interface efficace et réactive pour Zend OPcache"
 
@@ -13,10 +13,8 @@ maintainers = ["eric_G"]
 
 [upstream]
 license = "MIT"
-website = "https://example.com"
-admindoc = "https://yunohost.org/packaging_apps"
-userdoc = "https://yunohost.org/apps"
 code = "https://github.com/amnuts/opcache-gui"
+fund = "https://github.com/sponsors/amnuts"
 
 [integration]
 yunohost = ">= 12.0.9"
